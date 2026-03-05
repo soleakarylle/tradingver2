@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #0d0d0f;
+    color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #c9a227;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.section {
+    margin: 40px 0;
+}
+
+.card {
+    background: #1a1a1f;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: 1px solid #c9a227;
+    box-shadow: 0 0 15px rgba(201,162,39,0.2);
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 6px;
+    font-size: 12px;
+    background: #c9a227;
+    color: black;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.collapsible {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.content {
+    display: none;
+}
+
+.home-box {
+    background: #1a1a1f;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #c9a227;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    input { width: 90%; }
+}
